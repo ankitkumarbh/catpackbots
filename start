@@ -1,0 +1,9 @@
+#!/bin/bash
+
+_set_bot () {
+    git clone https://github.com/TgCatUB/catuserbot catbot
+cd catbot
+    python3 -m userbot
+}
+
+_set_bot
